@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>My Form</title>
+</head>
+<body>
+<form>
+    <h1>Student Record Form</h1>
+    <img src="image/polaroidWideFrame.jpg" alt="paste here"><br>
+    <label for="fname">First Name</label><br>
+    <input type="Text" id="fname" name="First Name" placeholder="First name" required><br><br>
+    <label for="lname">Last Name</label><br>
+    <input type="Text" id="lname" name="Last Name" placeholder="Last Name" required><br><br>
+    <label for="dob">Date of Birth</label>
+    <input type="Date" id="dob" name="dob" required><br><br>
+    <label for="fname">Father Name</label><br>
+    <input type="Text" id="fname" name="Father Name" placeholder="Father Name" required><br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="email" required><br><br>
+    <label for="Mob">Contact </label>
+    <input type="Number" id="Mob" name="Contact" placeholder="Contact" required><br><br>
+    <label for="address">Addrress</label><br>
+    <textarea name="Address" id="address" cols="30" rows="10"></textarea>
+    <r></br>
+        <br>
+        <label for="state">State</label>
+        <select name="state">
+            <option value="UP">UP</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="MP">MP</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Goa">Goa</option>
+        </select><br>
+        <br>
+        <label for="City">City</label>
+        <input list="City" name="City" id="hometown ">
+        <datalist id="City">
+            <option value="Kota">
+            <option value="Bundi">
+            <option value="Ajmer">
+            <option value="Jaipur">
+            <option value="Udaipur">
+        </datalist>
+
+        <p> choose your Fav. sports</p>
+        <input type="checkbox" id="sports 1" name="sport1" value="cricket">
+        <label for="cricket">Cricket</label>
+        <input type="checkbox" id="sports1" name="sport1" value="Hockey">
+        <label for="Hockey">Hockey</label>
+        <input type="checkbox" id="sports1" name="sport 1" value="Badminton">
+        <label for="Badminton">Badminton</label>
+
+        <p>choose your Stream</p>
+        <input type="radio" id="commerce" name="stream" value="Commerce">
+        <label for="Commerce">Commerce</label>
+        <input type="radio" id="Science" name="stream" value="Science">
+        <label for="Science">Science</label>
+        <input type="radio" id="Arts" name="stream" value="arts">
+        <label for="Arts">Arts</label>
+        <br>
+        <input type="submit" value="submit">
+</form>
+</body>
+</html>
